@@ -4,7 +4,6 @@
 **Industrial Drift Detection · Governed Retraining · Audit-Compliant Deployment**
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](#)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.11-3776ab?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
 *Autonomous monitoring that detects drift, explains root cause, and gates model updates with safety constraints and immutable audit logging.*
@@ -47,18 +46,6 @@ Open **http://localhost:8501**
 | Explainability | Random Forest feature importance |
 | Audit | Immutable JSON log + TXT export |
 
----
-
-## Demo script (2 min)
-
-1. Click **▶ RUN FULL PIPELINE** in sidebar  
-2. Show **ML Reliability Index** + drift drivers  
-3. Show **Expert analysis** narrative  
-4. **Engineer sign-off** if prompted → retrain promotes model  
-5. Show **version table** + confusion matrices  
-6. **Export audit report**
-
-**Key sentence:** *"The model was trained under cooler conditions; live telemetry diverged — DriftWarden detected, explained, retrained, and gated deployment."*
 
 ---
 
@@ -76,8 +63,6 @@ DriftWarden/
 ```
 
 ---
-
-## Positioning
 
 > **DriftWarden is an autonomous reliability layer for industrial machine learning systems.**
 
