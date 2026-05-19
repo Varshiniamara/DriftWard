@@ -1,12 +1,27 @@
-# DriftWarden — Enterprise ML Reliability Layer
+<div align="center">
 
-**Autonomous monitoring, governed retraining, and audit-compliant deployment** for industrial predictive maintenance models.
+# 🛡️ DriftWarden — Autonomous ML Reliability Orchestration
+**Industrial Drift Detection · Governed Retraining · Audit-Compliant Deployment**
 
-Built on the [UCI AI4I 2020](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset) dataset — real motor sensor telemetry (temperature, speed, torque, tool wear, failure labels).
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.11-3776ab?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
+*Autonomous monitoring that detects drift, explains root cause, and gates model updates with safety constraints and immutable audit logging.*
 
 ---
 
-## Quick start
+</div>
+
+## 📌 1. Abstract
+DriftWarden is an end-to-end **industrial ML reliability layer** for predictive maintenance models. It continuously monitors live telemetry for distribution drift, corroborates statistical signals, performs governed root-cause analysis, and only promotes retrained models when performance improves and safety gates pass.
+
+Built on the **UCI AI4I 2020** motor telemetry dataset (temperature, speed, torque, tool wear, failure labels), while preserving the runtime architecture for real streaming production signals.
+
+---
+
+## ⚡ 2. Quick start
+
 
 ```bash
 cd DriftWarden
