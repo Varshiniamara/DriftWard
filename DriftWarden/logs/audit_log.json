@@ -1,0 +1,4858 @@
+[
+  {
+    "timestamp": "2026-05-16T18:43:26.276269+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 0.0,
+        "tool_wear_increment": 0,
+        "description": "no drift applied"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.1163,
+      "severity": "HIGH",
+      "live_f1": 0.5517241379310345,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.424
+    },
+    "report": "[2026-05-16 18:43:26] DRIFT RECALC\n\nParams: no drift applied\nMax PSI: 5.0676  Mean PSI: 1.1163\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.5517241379310345 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.424"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:30.641046+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 2.5,
+        "tool_wear_increment": 0,
+        "description": "torque noise \u03c3=2.5 Nm"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.116,
+      "severity": "HIGH",
+      "live_f1": 0.5,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.0517,
+      "strategy": "full_retrain",
+      "confidence": 0.358
+    },
+    "report": "[2026-05-16 18:43:30] DRIFT RECALC\n\nParams: torque noise \u03c3=2.5 Nm\nMax PSI: 5.0676  Mean PSI: 1.116\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.5 (drop 0.0517)\nStrategy: full_retrain  Confidence: 0.358"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:32.953520+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 1.4,
+        "tool_wear_increment": 0,
+        "description": "torque noise \u03c3=1.4 Nm"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.1164,
+      "severity": "HIGH",
+      "live_f1": 0.5333333333333333,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.0184,
+      "strategy": "full_retrain",
+      "confidence": 0.401
+    },
+    "report": "[2026-05-16 18:43:32] DRIFT RECALC\n\nParams: torque noise \u03c3=1.4 Nm\nMax PSI: 5.0676  Mean PSI: 1.1164\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.5333333333333333 (drop 0.0184)\nStrategy: full_retrain  Confidence: 0.401"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:34.375416+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 4.4,
+        "tool_wear_increment": 0,
+        "description": "torque noise \u03c3=4.4 Nm"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.1176,
+      "severity": "HIGH",
+      "live_f1": 0.43749999999999994,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.1142,
+      "strategy": "full_retrain",
+      "confidence": 0.278
+    },
+    "report": "[2026-05-16 18:43:34] DRIFT RECALC\n\nParams: torque noise \u03c3=4.4 Nm\nMax PSI: 5.0676  Mean PSI: 1.1176\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.43749999999999994 (drop 0.1142)\nStrategy: full_retrain  Confidence: 0.278"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:35.798741+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 5.8,
+        "tool_wear_increment": 0,
+        "description": "torque noise \u03c3=5.8 Nm"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.123,
+      "severity": "HIGH",
+      "live_f1": 0.3564356435643564,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.1953,
+      "strategy": "full_retrain",
+      "confidence": 0.174
+    },
+    "report": "[2026-05-16 18:43:35] DRIFT RECALC\n\nParams: torque noise \u03c3=5.8 Nm\nMax PSI: 5.0676  Mean PSI: 1.123\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.3564356435643564 (drop 0.1953)\nStrategy: full_retrain  Confidence: 0.174"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:37.638200+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 5.8,
+        "tool_wear_increment": 23,
+        "description": "torque noise \u03c3=5.8 Nm; +23 min tool wear"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.3537,
+      "severity": "HIGH",
+      "live_f1": 0.40322580645161293,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.1485,
+      "strategy": "full_retrain",
+      "confidence": 0.234
+    },
+    "report": "[2026-05-16 18:43:37] DRIFT RECALC\n\nParams: torque noise \u03c3=5.8 Nm; +23 min tool wear\nMax PSI: 5.0676  Mean PSI: 1.3537\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.40322580645161293 (drop 0.1485)\nStrategy: full_retrain  Confidence: 0.234"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:38.613082+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 5.8,
+        "tool_wear_increment": 32,
+        "description": "torque noise \u03c3=5.8 Nm; +32 min tool wear"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.3688,
+      "severity": "HIGH",
+      "live_f1": 0.411764705882353,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.14,
+      "strategy": "full_retrain",
+      "confidence": 0.245
+    },
+    "report": "[2026-05-16 18:43:38] DRIFT RECALC\n\nParams: torque noise \u03c3=5.8 Nm; +32 min tool wear\nMax PSI: 5.0676  Mean PSI: 1.3688\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.411764705882353 (drop 0.14)\nStrategy: full_retrain  Confidence: 0.245"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:39.503532+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 5.8,
+        "tool_wear_increment": 35,
+        "description": "torque noise \u03c3=5.8 Nm; +35 min tool wear"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.3818,
+      "severity": "HIGH",
+      "live_f1": 0.31724137931034485,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.2345,
+      "strategy": "full_retrain",
+      "confidence": 0.124
+    },
+    "report": "[2026-05-16 18:43:39] DRIFT RECALC\n\nParams: torque noise \u03c3=5.8 Nm; +35 min tool wear\nMax PSI: 5.0676  Mean PSI: 1.3818\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.31724137931034485 (drop 0.2345)\nStrategy: full_retrain  Confidence: 0.124"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:40.372103+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 5.8,
+        "tool_wear_increment": 3,
+        "description": "torque noise \u03c3=5.8 Nm; +3 min tool wear"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.1204,
+      "severity": "HIGH",
+      "live_f1": 0.4464285714285714,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.1053,
+      "strategy": "full_retrain",
+      "confidence": 0.289
+    },
+    "report": "[2026-05-16 18:43:40] DRIFT RECALC\n\nParams: torque noise \u03c3=5.8 Nm; +3 min tool wear\nMax PSI: 5.0676  Mean PSI: 1.1204\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.4464285714285714 (drop 0.1053)\nStrategy: full_retrain  Confidence: 0.289"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:42.267461+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 14.5,
+        "torque_noise_std": 5.8,
+        "tool_wear_increment": 3,
+        "description": "+14.5 K air/process temperature; torque noise \u03c3=5.8 Nm; +3 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.614,
+      "severity": "HIGH",
+      "live_f1": 0.29729729729729726,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.2544,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:43:42] DRIFT RECALC\n\nParams: +14.5 K air/process temperature; torque noise \u03c3=5.8 Nm; +3 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.614\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.29729729729729726 (drop 0.2544)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:43.300774+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 10.5,
+        "torque_noise_std": 5.8,
+        "tool_wear_increment": 3,
+        "description": "+10.5 K air/process temperature; torque noise \u03c3=5.8 Nm; +3 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.6146,
+      "severity": "HIGH",
+      "live_f1": 0.27777777777777773,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.2739,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:43:43] DRIFT RECALC\n\nParams: +10.5 K air/process temperature; torque noise \u03c3=5.8 Nm; +3 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.6146\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.27777777777777773 (drop 0.2739)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:44.127273+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 7.0,
+        "torque_noise_std": 5.8,
+        "tool_wear_increment": 3,
+        "description": "+7.0 K air/process temperature; torque noise \u03c3=5.8 Nm; +3 min tool wear"
+      },
+      "max_psi": 12.385,
+      "aggregate_psi": 4.7885,
+      "severity": "HIGH",
+      "live_f1": 0.3013698630136986,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.2504,
+      "strategy": "full_retrain",
+      "confidence": 0.104
+    },
+    "report": "[2026-05-16 18:43:44] DRIFT RECALC\n\nParams: +7.0 K air/process temperature; torque noise \u03c3=5.8 Nm; +3 min tool wear\nMax PSI: 12.385  Mean PSI: 4.7885\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.3013698630136986 (drop 0.2504)\nStrategy: full_retrain  Confidence: 0.104"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:44.854817+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 5.8,
+        "tool_wear_increment": 3,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=5.8 Nm; +3 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.2417,
+      "severity": "HIGH",
+      "live_f1": 0.3448275862068965,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.2069,
+      "strategy": "full_retrain",
+      "confidence": 0.159
+    },
+    "report": "[2026-05-16 18:43:44] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=5.8 Nm; +3 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.2417\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.3448275862068965 (drop 0.2069)\nStrategy: full_retrain  Confidence: 0.159"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:47.959067+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 3,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +3 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.2391,
+      "severity": "HIGH",
+      "live_f1": 0.2784810126582279,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.2732,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:43:47] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +3 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.2391\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.2784810126582279 (drop 0.2732)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:51.541758+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 31,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +31 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.4862,
+      "severity": "HIGH",
+      "live_f1": 0.36363636363636365,
+      "reference_f1": 0.5517241379310345,
+      "f1_drop": 0.1881,
+      "strategy": "full_retrain",
+      "confidence": 0.183
+    },
+    "report": "[2026-05-16 18:43:51] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +31 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.4862\nSeverity: HIGH\nF1: 0.5517241379310345 \u2192 0.36363636363636365 (drop 0.1881)\nStrategy: full_retrain  Confidence: 0.183"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:53.059093+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.4862,
+      "severity": "HIGH",
+      "f1_drop": 0.1881,
+      "live_f1": 0.36363636363636365,
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 31,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +31 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-16 18:43:53] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 2.4862\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:53.059899+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=7.149, F1 drop=0.188, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.183,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.18 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 7.1485,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 4.02,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.2374,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0165,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 7.1485,
+        "agg_psi": 2.4862,
+        "f1_drop": 0.18808777429467083,
+        "live_f1": 0.36363636363636365
+      }
+    },
+    "report": "[2026-05-16 18:43:53] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.183 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 7.1485\n  air_temperature         PSI = 4.0200\n  tool_wear               PSI = 1.2374\n  torque                  PSI = 0.0165\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=7.149, F1 drop=0.188, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-16T18:43:58.994305+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.4862,
+      "severity": "HIGH",
+      "f1_drop": 0.1881,
+      "live_f1": 0.36363636363636365,
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 31,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +31 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-16 18:43:58] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 2.4862\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-16T18:43:58.995314+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=7.149, F1 drop=0.188, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.183,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.18 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 7.1485,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 4.02,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.2374,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0165,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 7.1485,
+        "agg_psi": 2.4862,
+        "f1_drop": 0.18808777429467083,
+        "live_f1": 0.36363636363636365
+      }
+    },
+    "report": "[2026-05-16 18:43:58] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.183 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 7.1485\n  air_temperature         PSI = 4.0200\n  tool_wear               PSI = 1.2374\n  torque                  PSI = 0.0165\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=7.149, F1 drop=0.188, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-16T18:44:01.322650+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.36363636363636365,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9766666666666667,
+          "precision": 0.40816326530612246,
+          "recall": 0.32786885245901637,
+          "f1": 0.36363636363636365,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99      2939\n           1       0.41      0.33      0.36        61\n\n    accuracy                           0.98      3000\n   macro avg       0.70      0.66      0.68      3000\nweighted avg       0.97      0.98      0.98      3000\n",
+          "confusion_matrix": [
+            [
+              2910,
+              29
+            ],
+            [
+              41,
+              20
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.6364,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.364 \u2192 1.000 (+0.6364)"
+      },
+      "version_before": "v1.4",
+      "version_after": "v1.5"
+    },
+    "report": "[2026-05-16 18:44:01] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:05.329852+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 17,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +17 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.2702,
+      "severity": "HIGH",
+      "live_f1": 0.5806451612903226,
+      "reference_f1": 0.5681818181818182,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.426
+    },
+    "report": "[2026-05-16 18:44:05] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +17 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.2702\nSeverity: HIGH\nF1: 0.5681818181818182 \u2192 0.5806451612903226 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.426"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:06.649616+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.2702,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.5806451612903226,
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 17,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +17 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-16 18:44:06] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 2.2702\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:06.650628+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=7.149, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.426,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.43 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 7.1485,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 4.02,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 0.1601,
+          "psi_severity": "medium",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.014,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 7.1485,
+        "agg_psi": 2.2702,
+        "f1_drop": 0.0,
+        "live_f1": 0.5806451612903226
+      }
+    },
+    "report": "[2026-05-16 18:44:06] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.426 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 7.1485\n  air_temperature         PSI = 4.0200\n  tool_wear               PSI = 0.1601\n  torque                  PSI = 0.0140\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=7.149, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-16T18:44:07.338750+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 31,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +31 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.4862,
+      "severity": "HIGH",
+      "live_f1": 1.0,
+      "reference_f1": 0.5681818181818182,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.46
+    },
+    "report": "[2026-05-16 18:44:07] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +31 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.4862\nSeverity: HIGH\nF1: 0.5681818181818182 \u2192 1.0 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.46"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:09.008235+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.5806451612903226,
+      "new_f1": 0.9917355371900827,
+      "comparison": {
+        "old": {
+          "accuracy": 0.987,
+          "precision": 0.84375,
+          "recall": 0.4426229508196721,
+          "f1": 0.5806451612903226,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99      2939\n           1       0.84      0.44      0.58        61\n\n    accuracy                           0.99      3000\n   macro avg       0.92      0.72      0.79      3000\nweighted avg       0.99      0.99      0.99      3000\n",
+          "confusion_matrix": [
+            [
+              2934,
+              5
+            ],
+            [
+              34,
+              27
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 0.9996666666666667,
+          "precision": 1.0,
+          "recall": 0.9836065573770492,
+          "f1": 0.9917355371900827,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      0.98      0.99        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      0.99      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              1,
+              60
+            ]
+          ]
+        },
+        "f1_delta": 0.4111,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.581 \u2192 0.992 (+0.4111)"
+      },
+      "version_before": "v1.5",
+      "version_after": "v1.6"
+    },
+    "report": "[2026-05-16 18:44:09] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:09.142776+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 39,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +39 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.5178,
+      "severity": "HIGH",
+      "live_f1": 0.7272727272727273,
+      "reference_f1": 0.5681818181818182,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.438
+    },
+    "report": "[2026-05-16 18:44:09] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +39 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.5178\nSeverity: HIGH\nF1: 0.5681818181818182 \u2192 0.7272727272727273 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.438"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:10.628454+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 6,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +6 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.24,
+      "severity": "HIGH",
+      "live_f1": 0.6136363636363636,
+      "reference_f1": 0.574712643678161,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.429
+    },
+    "report": "[2026-05-16 18:44:10] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +6 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.24\nSeverity: HIGH\nF1: 0.574712643678161 \u2192 0.6136363636363636 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.429"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:11.969111+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 15,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +15 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.2609,
+      "severity": "HIGH",
+      "live_f1": 0.7378640776699029,
+      "reference_f1": 0.574712643678161,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.439
+    },
+    "report": "[2026-05-16 18:44:11] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +15 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.2609\nSeverity: HIGH\nF1: 0.574712643678161 \u2192 0.7378640776699029 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.439"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:12.975109+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 23,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +23 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.4721,
+      "severity": "HIGH",
+      "live_f1": 0.6846846846846847,
+      "reference_f1": 0.574712643678161,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.435
+    },
+    "report": "[2026-05-16 18:44:12] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +23 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.4721\nSeverity: HIGH\nF1: 0.574712643678161 \u2192 0.6846846846846847 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.435"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:13.920542+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 31,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +31 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.4862,
+      "severity": "HIGH",
+      "live_f1": 0.625,
+      "reference_f1": 0.574712643678161,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.43
+    },
+    "report": "[2026-05-16 18:44:13] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +31 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.4862\nSeverity: HIGH\nF1: 0.574712643678161 \u2192 0.625 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.43"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:14.761459+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 39,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +39 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.5178,
+      "severity": "HIGH",
+      "live_f1": 0.5909090909090909,
+      "reference_f1": 0.574712643678161,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.427
+    },
+    "report": "[2026-05-16 18:44:14] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +39 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.5178\nSeverity: HIGH\nF1: 0.574712643678161 \u2192 0.5909090909090909 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.427"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:37.982859+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 24,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +24 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.4717,
+      "severity": "HIGH",
+      "live_f1": 0.7079646017699115,
+      "reference_f1": 0.574712643678161,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.437
+    },
+    "report": "[2026-05-16 18:44:37] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +24 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.4717\nSeverity: HIGH\nF1: 0.574712643678161 \u2192 0.7079646017699115 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.437"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:39.143498+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.4717,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.7079646017699115,
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 24,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +24 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-16 18:44:39] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 2.4717\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Tool wear [min]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:39.144987+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=7.149, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.437,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.44 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 7.1485,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 4.02,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.1719,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0094,
+          "psi_severity": "low",
+          "ks_significant": false
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 7.1485,
+        "agg_psi": 2.4717,
+        "f1_drop": 0.0,
+        "live_f1": 0.7079646017699115
+      }
+    },
+    "report": "[2026-05-16 18:44:39] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.437 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 7.1485\n  air_temperature         PSI = 4.0200\n  tool_wear               PSI = 1.1719\n  torque                  PSI = 0.0094\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=7.149, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-16T18:44:41.482286+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.7079646017699115,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.989,
+          "precision": 0.7692307692307693,
+          "recall": 0.6557377049180327,
+          "f1": 0.7079646017699115,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99      2939\n           1       0.77      0.66      0.71        61\n\n    accuracy                           0.99      3000\n   macro avg       0.88      0.83      0.85      3000\nweighted avg       0.99      0.99      0.99      3000\n",
+          "confusion_matrix": [
+            [
+              2927,
+              12
+            ],
+            [
+              21,
+              40
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.292,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.708 \u2192 1.000 (+0.2920)"
+      },
+      "version_before": "v1.6",
+      "version_after": "v1.7"
+    },
+    "report": "[2026-05-16 18:44:41] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:45.191273+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 46,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +46 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.7318,
+      "severity": "HIGH",
+      "live_f1": 0.6875,
+      "reference_f1": 0.5842696629213483,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.435
+    },
+    "report": "[2026-05-16 18:44:45] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +46 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.7318\nSeverity: HIGH\nF1: 0.5842696629213483 \u2192 0.6875 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.435"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:46.547230+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.7318,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.6875,
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 46,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +46 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-16 18:44:46] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 2.7318\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:46.548942+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=7.149, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.435,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.43 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 7.1485,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 4.02,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 2.4638,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.018,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 7.1485,
+        "agg_psi": 2.7318,
+        "f1_drop": 0.0,
+        "live_f1": 0.6875
+      }
+    },
+    "report": "[2026-05-16 18:44:46] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.435 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 7.1485\n  air_temperature         PSI = 4.0200\n  tool_wear               PSI = 2.4638\n  torque                  PSI = 0.0180\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=7.149, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-16T18:44:48.864424+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.6875,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9866666666666667,
+          "precision": 0.6567164179104478,
+          "recall": 0.7213114754098361,
+          "f1": 0.6875,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99      2939\n           1       0.66      0.72      0.69        61\n\n    accuracy                           0.99      3000\n   macro avg       0.83      0.86      0.84      3000\nweighted avg       0.99      0.99      0.99      3000\n",
+          "confusion_matrix": [
+            [
+              2916,
+              23
+            ],
+            [
+              17,
+              44
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.3125,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.688 \u2192 1.000 (+0.3125)"
+      },
+      "version_before": "v1.7",
+      "version_after": "v1.8"
+    },
+    "report": "[2026-05-16 18:44:48] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:58.634643+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.7318,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 1.0,
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 46,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +46 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-16 18:44:58] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 2.7318\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-16T18:44:58.636308+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=7.149, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.46,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.46 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 7.1485,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 4.02,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 2.4638,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.018,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 7.1485,
+        "agg_psi": 2.7318,
+        "f1_drop": 0.0,
+        "live_f1": 1.0
+      }
+    },
+    "report": "[2026-05-16 18:44:58] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.46 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 7.1485\n  air_temperature         PSI = 4.0200\n  tool_wear               PSI = 2.4638\n  torque                  PSI = 0.0180\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=7.149, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-16T18:45:00.935924+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "rejected",
+      "strategy": "full_retrain",
+      "old_f1": 1.0,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.0,
+        "promote": false,
+        "reason": "Rejected: F1 gain +0.0000 below required margin (0.001)"
+      },
+      "version_before": "v1.8",
+      "version_after": "v1.8"
+    },
+    "report": "[2026-05-16 18:45:00] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2717 CANDIDATE REJECTED (accuracy gate)"
+  },
+  {
+    "timestamp": "2026-05-16T18:45:03.308848+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 21,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +21 min tool wear"
+      },
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.4701,
+      "severity": "HIGH",
+      "live_f1": 0.5116279069767442,
+      "reference_f1": 0.5813953488372093,
+      "f1_drop": 0.0698,
+      "strategy": "full_retrain",
+      "confidence": 0.337
+    },
+    "report": "[2026-05-16 18:45:03] DRIFT RECALC\n\nParams: +3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +21 min tool wear\nMax PSI: 7.1485  Mean PSI: 2.4701\nSeverity: HIGH\nF1: 0.5813953488372093 \u2192 0.5116279069767442 (drop 0.0698)\nStrategy: full_retrain  Confidence: 0.337"
+  },
+  {
+    "timestamp": "2026-05-16T18:45:05.441579+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 7.1485,
+      "aggregate_psi": 2.4701,
+      "severity": "HIGH",
+      "f1_drop": 0.0698,
+      "live_f1": 0.5116279069767442,
+      "drift_params": {
+        "temp_shift_k": 3.0,
+        "torque_noise_std": 4.6,
+        "tool_wear_increment": 21,
+        "description": "+3.0 K air/process temperature; torque noise \u03c3=4.6 Nm; +21 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-16 18:45:05] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 2.4701\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-16T18:45:05.443587+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=7.149, F1 drop=0.070, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.337,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.34 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 7.1485,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 4.02,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.1547,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0187,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 7.1485,
+        "agg_psi": 2.4701,
+        "f1_drop": 0.06976744186046513,
+        "live_f1": 0.5116279069767442
+      }
+    },
+    "report": "[2026-05-16 18:45:05] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.337 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 7.1485\n  air_temperature         PSI = 4.0200\n  tool_wear               PSI = 1.1547\n  torque                  PSI = 0.0187\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=7.149, F1 drop=0.070, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-16T18:45:07.790465+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.5116279069767442,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.986,
+          "precision": 0.88,
+          "recall": 0.36065573770491804,
+          "f1": 0.5116279069767442,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99      2939\n           1       0.88      0.36      0.51        61\n\n    accuracy                           0.99      3000\n   macro avg       0.93      0.68      0.75      3000\nweighted avg       0.98      0.99      0.98      3000\n",
+          "confusion_matrix": [
+            [
+              2936,
+              3
+            ],
+            [
+              39,
+              22
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.4884,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.512 \u2192 1.000 (+0.4884)"
+      },
+      "version_before": "v1.8",
+      "version_after": "v1.9"
+    },
+    "report": "[2026-05-16 18:45:07] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-16T18:45:43.144595+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 0.0,
+        "tool_wear_increment": 0,
+        "description": "no drift applied"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.1163,
+      "severity": "HIGH",
+      "live_f1": 0.6222222222222222,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.43
+    },
+    "report": "[2026-05-16 18:45:43] DRIFT RECALC\n\nParams: no drift applied\nMax PSI: 5.0676  Mean PSI: 1.1163\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.6222222222222222 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.43"
+  },
+  {
+    "timestamp": "2026-05-16T18:45:54.325353+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 0.0,
+        "tool_wear_increment": 0,
+        "description": "no drift applied"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.1163,
+      "severity": "HIGH",
+      "live_f1": 0.6222222222222222,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.43
+    },
+    "report": "[2026-05-16 18:45:54] DRIFT RECALC\n\nParams: no drift applied\nMax PSI: 5.0676  Mean PSI: 1.1163\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.6222222222222222 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.43"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:17.234624+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.1163,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.6222222222222222,
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 0.0,
+        "tool_wear_increment": 0,
+        "description": "no drift applied"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-16 18:46:17] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 1.1163\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Tool wear [min]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:17.236978+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=5.068, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.43,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.43 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 5.0676,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 0.4982,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0051,
+          "psi_severity": "low",
+          "ks_significant": false
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 0.0021,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 5.0676,
+        "agg_psi": 1.1163,
+        "f1_drop": 0.0,
+        "live_f1": 0.6222222222222222
+      }
+    },
+    "report": "[2026-05-16 18:46:17] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.43 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  air_temperature         PSI = 5.0676\n  process_temperature     PSI = 0.4982\n  rotational_speed        PSI = 0.0085\n  torque                  PSI = 0.0051\n  tool_wear               PSI = 0.0021\n\nRationale: Significant shift: max PSI=5.068, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-16T18:46:21.550999+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 0.0,
+        "tool_wear_increment": 24,
+        "description": "+24 min tool wear"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.3503,
+      "severity": "HIGH",
+      "live_f1": 0.5517241379310346,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.0705,
+      "strategy": "full_retrain",
+      "confidence": 0.34
+    },
+    "report": "[2026-05-16 18:46:21] DRIFT RECALC\n\nParams: +24 min tool wear\nMax PSI: 5.0676  Mean PSI: 1.3503\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.5517241379310346 (drop 0.0705)\nStrategy: full_retrain  Confidence: 0.34"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:24.612674+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 4.4,
+        "tool_wear_increment": 24,
+        "description": "torque noise \u03c3=4.4 Nm; +24 min tool wear"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.3519,
+      "severity": "HIGH",
+      "live_f1": 0.48387096774193544,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.1384,
+      "strategy": "full_retrain",
+      "confidence": 0.253
+    },
+    "report": "[2026-05-16 18:46:24] DRIFT RECALC\n\nParams: torque noise \u03c3=4.4 Nm; +24 min tool wear\nMax PSI: 5.0676  Mean PSI: 1.3519\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.48387096774193544 (drop 0.1384)\nStrategy: full_retrain  Confidence: 0.253"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:26.277192+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 1.2,
+        "tool_wear_increment": 24,
+        "description": "torque noise \u03c3=1.2 Nm; +24 min tool wear"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.3505,
+      "severity": "HIGH",
+      "live_f1": 0.5309734513274337,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.0912,
+      "strategy": "full_retrain",
+      "confidence": 0.313
+    },
+    "report": "[2026-05-16 18:46:26] DRIFT RECALC\n\nParams: torque noise \u03c3=1.2 Nm; +24 min tool wear\nMax PSI: 5.0676  Mean PSI: 1.3505\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.5309734513274337 (drop 0.0912)\nStrategy: full_retrain  Confidence: 0.313"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:27.800217+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.3577,
+      "severity": "HIGH",
+      "live_f1": 0.4113475177304965,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.2109,
+      "strategy": "full_retrain",
+      "confidence": 0.16
+    },
+    "report": "[2026-05-16 18:46:27] DRIFT RECALC\n\nParams: torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 5.0676  Mean PSI: 1.3577\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.4113475177304965 (drop 0.2109)\nStrategy: full_retrain  Confidence: 0.16"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:29.336964+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 10.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+10.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8465,
+      "severity": "HIGH",
+      "live_f1": 0.03225806451612903,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.59,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:29] DRIFT RECALC\n\nParams: +10.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8465\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.03225806451612903 (drop 0.59)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:29.933628+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 17.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+17.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8515,
+      "severity": "HIGH",
+      "live_f1": 0.03225806451612903,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.59,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:29] DRIFT RECALC\n\nParams: +17.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8515\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.03225806451612903 (drop 0.59)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:31.022546+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 7.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+7.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 12.385,
+      "aggregate_psi": 5.0239,
+      "severity": "HIGH",
+      "live_f1": 0.03225806451612903,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.59,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:31] DRIFT RECALC\n\nParams: +7.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 12.385  Mean PSI: 5.0239\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.03225806451612903 (drop 0.59)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:31.827038+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.3577,
+      "severity": "HIGH",
+      "live_f1": 0.4113475177304965,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.2109,
+      "strategy": "full_retrain",
+      "confidence": 0.16
+    },
+    "report": "[2026-05-16 18:46:31] DRIFT RECALC\n\nParams: torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 5.0676  Mean PSI: 1.3577\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.4113475177304965 (drop 0.2109)\nStrategy: full_retrain  Confidence: 0.16"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:33.055489+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 5.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+5.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 12.4172,
+      "aggregate_psi": 4.6647,
+      "severity": "HIGH",
+      "live_f1": 0.16901408450704225,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.4532,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:33] DRIFT RECALC\n\nParams: +5.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 12.4172  Mean PSI: 4.6647\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.16901408450704225 (drop 0.4532)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:34.086889+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 8.0,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+8.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8499,
+      "severity": "HIGH",
+      "live_f1": 0.03225806451612903,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.59,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:34] DRIFT RECALC\n\nParams: +8.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8499\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.03225806451612903 (drop 0.59)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:35.033689+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 12.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+12.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8487,
+      "severity": "HIGH",
+      "live_f1": 0.06349206349206349,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.5587,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:35] DRIFT RECALC\n\nParams: +12.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8487\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.06349206349206349 (drop 0.5587)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:35.796089+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 15.0,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+15.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8482,
+      "severity": "HIGH",
+      "live_f1": 0.06349206349206349,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.5587,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:35] DRIFT RECALC\n\nParams: +15.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8482\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.06349206349206349 (drop 0.5587)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:37.145745+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 18.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+18.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8489,
+      "severity": "HIGH",
+      "live_f1": 0.06349206349206349,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.5587,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:37] DRIFT RECALC\n\nParams: +18.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8489\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.06349206349206349 (drop 0.5587)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:37.897557+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 19.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+19.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8485,
+      "severity": "HIGH",
+      "live_f1": 0.03225806451612903,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.59,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:37] DRIFT RECALC\n\nParams: +19.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8485\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.03225806451612903 (drop 0.59)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:38.595215+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 9.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+9.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8484,
+      "severity": "HIGH",
+      "live_f1": 0.09375,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.5285,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:38] DRIFT RECALC\n\nParams: +9.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8484\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.09375 (drop 0.5285)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:39.645599+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 5.0,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+5.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 12.4172,
+      "aggregate_psi": 4.3655,
+      "severity": "HIGH",
+      "live_f1": 0.23376623376623376,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.3885,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:39] DRIFT RECALC\n\nParams: +5.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 12.4172  Mean PSI: 4.3655\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.23376623376623376 (drop 0.3885)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:40.645741+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.3577,
+      "severity": "HIGH",
+      "live_f1": 0.4113475177304965,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.2109,
+      "strategy": "full_retrain",
+      "confidence": 0.16
+    },
+    "report": "[2026-05-16 18:46:40] DRIFT RECALC\n\nParams: torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 5.0676  Mean PSI: 1.3577\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.4113475177304965 (drop 0.2109)\nStrategy: full_retrain  Confidence: 0.16"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:42.291117+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 24,
+        "description": "+3.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear"
+      },
+      "max_psi": 9.4849,
+      "aggregate_psi": 3.1652,
+      "severity": "HIGH",
+      "live_f1": 0.3956043956043956,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.2266,
+      "strategy": "full_retrain",
+      "confidence": 0.14
+    },
+    "report": "[2026-05-16 18:46:42] DRIFT RECALC\n\nParams: +3.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +24 min tool wear\nMax PSI: 9.4849  Mean PSI: 3.1652\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.3956043956043956 (drop 0.2266)\nStrategy: full_retrain  Confidence: 0.14"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:45.733462+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 39,
+        "description": "+3.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +39 min tool wear"
+      },
+      "max_psi": 9.4849,
+      "aggregate_psi": 3.2089,
+      "severity": "HIGH",
+      "live_f1": 0.26804123711340205,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.3542,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:45] DRIFT RECALC\n\nParams: +3.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +39 min tool wear\nMax PSI: 9.4849  Mean PSI: 3.2089\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.26804123711340205 (drop 0.3542)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:48.238236+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 44,
+        "description": "+3.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +44 min tool wear"
+      },
+      "max_psi": 9.4849,
+      "aggregate_psi": 3.4159,
+      "severity": "HIGH",
+      "live_f1": 0.3495145631067962,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.2727,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-16 18:46:48] DRIFT RECALC\n\nParams: +3.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +44 min tool wear\nMax PSI: 9.4849  Mean PSI: 3.4159\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.3495145631067962 (drop 0.2727)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-16T18:46:49.061748+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 3.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 23,
+        "description": "+3.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +23 min tool wear"
+      },
+      "max_psi": 9.4849,
+      "aggregate_psi": 3.1614,
+      "severity": "HIGH",
+      "live_f1": 0.3908045977011494,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.2314,
+      "strategy": "full_retrain",
+      "confidence": 0.134
+    },
+    "report": "[2026-05-16 18:46:49] DRIFT RECALC\n\nParams: +3.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +23 min tool wear\nMax PSI: 9.4849  Mean PSI: 3.1614\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.3908045977011494 (drop 0.2314)\nStrategy: full_retrain  Confidence: 0.134"
+  },
+  {
+    "timestamp": "2026-05-18T11:56:21.974271+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 23,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +23 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8506,
+      "severity": "HIGH",
+      "live_f1": 0.09375,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.5285,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 11:56:21] DRIFT RECALC\n\nParams: +11.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +23 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8506\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.09375 (drop 0.5285)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T11:56:25.490966+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 15,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +15 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.6382,
+      "severity": "HIGH",
+      "live_f1": 0.03225806451612903,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.59,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 11:56:25] DRIFT RECALC\n\nParams: +11.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +15 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.6382\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.03225806451612903 (drop 0.59)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T11:56:29.072260+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 33,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +33 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8688,
+      "severity": "HIGH",
+      "live_f1": 0.09375,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.5285,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 11:56:29] DRIFT RECALC\n\nParams: +11.0 K air/process temperature; torque noise \u03c3=6.3 Nm; +33 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8688\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.09375 (drop 0.5285)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T11:56:35.610235+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 17.5,
+        "torque_noise_std": 6.3,
+        "tool_wear_increment": 33,
+        "description": "+17.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +33 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8654,
+      "severity": "HIGH",
+      "live_f1": 0.06349206349206349,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.5587,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 11:56:35] DRIFT RECALC\n\nParams: +17.5 K air/process temperature; torque noise \u03c3=6.3 Nm; +33 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8654\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.06349206349206349 (drop 0.5587)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:25:34.416883+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 0.0,
+        "tool_wear_increment": 0,
+        "description": "no drift applied"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.1163,
+      "severity": "HIGH",
+      "live_f1": 0.6222222222222222,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.43
+    },
+    "report": "[2026-05-18 19:25:34] DRIFT RECALC\n\nParams: no drift applied\nMax PSI: 5.0676  Mean PSI: 1.1163\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.6222222222222222 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.43"
+  },
+  {
+    "timestamp": "2026-05-18T19:25:36.727423+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 0.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 0,
+        "description": "torque noise \u03c3=3.4 Nm"
+      },
+      "max_psi": 5.0676,
+      "aggregate_psi": 1.1162,
+      "severity": "HIGH",
+      "live_f1": 0.5333333333333333,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.0889,
+      "strategy": "full_retrain",
+      "confidence": 0.316
+    },
+    "report": "[2026-05-18 19:25:36] DRIFT RECALC\n\nParams: torque noise \u03c3=3.4 Nm\nMax PSI: 5.0676  Mean PSI: 1.1162\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.5333333333333333 (drop 0.0889)\nStrategy: full_retrain  Confidence: 0.316"
+  },
+  {
+    "timestamp": "2026-05-18T19:25:38.377619+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 0,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.4 Nm"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.4075,
+      "severity": "HIGH",
+      "live_f1": 0.24999999999999997,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.3722,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:25:38] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=3.4 Nm\nMax PSI: 10.8739  Mean PSI: 3.4075\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.24999999999999997 (drop 0.3722)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:25:47.871361+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 21,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +21 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.6391,
+      "severity": "HIGH",
+      "live_f1": 0.30769230769230765,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.3145,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:25:47] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +21 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.6391\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.30769230769230765 (drop 0.3145)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:25:49.444784+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 33,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +33 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.6598,
+      "severity": "HIGH",
+      "live_f1": 0.3370786516853933,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.2851,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:25:49] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +33 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.6598\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.3370786516853933 (drop 0.2851)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:25:50.258602+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 1,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +1 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.4064,
+      "severity": "HIGH",
+      "live_f1": 0.2285714285714286,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.3937,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:25:50] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +1 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.4064\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.2285714285714286 (drop 0.3937)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:25:51.508576+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 21,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +21 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.6391,
+      "severity": "HIGH",
+      "live_f1": 0.30769230769230765,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.3145,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:25:51] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +21 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.6391\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.30769230769230765 (drop 0.3145)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:25:52.876401+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 43,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +43 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.8954,
+      "severity": "HIGH",
+      "live_f1": 0.36170212765957444,
+      "reference_f1": 0.6222222222222222,
+      "f1_drop": 0.2605,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:25:52] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +43 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.8954\nSeverity: HIGH\nF1: 0.6222222222222222 \u2192 0.36170212765957444 (drop 0.2605)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:08.263406+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.8954,
+      "severity": "HIGH",
+      "f1_drop": 0.2605,
+      "live_f1": 0.36170212765957444,
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 43,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +43 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:26:08] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 3.8954\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Tool wear [min]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:08.269007+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=10.874, F1 drop=0.261, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.1,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.10 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 10.8739,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 6.1449,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 2.4431,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0064,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 10.8739,
+        "agg_psi": 3.8954,
+        "f1_drop": 0.2605200945626478,
+        "live_f1": 0.36170212765957444
+      }
+    },
+    "report": "[2026-05-18 19:26:08] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.1 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 10.8739\n  air_temperature         PSI = 6.1449\n  tool_wear               PSI = 2.4431\n  rotational_speed        PSI = 0.0085\n  torque                  PSI = 0.0064\n\nRationale: Significant shift: max PSI=10.874, F1 drop=0.261, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:26:10.706963+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.36170212765957444,
+      "new_f1": 0.991869918699187,
+      "comparison": {
+        "old": {
+          "accuracy": 0.98,
+          "precision": 0.5151515151515151,
+          "recall": 0.2786885245901639,
+          "f1": 0.36170212765957444,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99      2939\n           1       0.52      0.28      0.36        61\n\n    accuracy                           0.98      3000\n   macro avg       0.75      0.64      0.68      3000\nweighted avg       0.98      0.98      0.98      3000\n",
+          "confusion_matrix": [
+            [
+              2923,
+              16
+            ],
+            [
+              44,
+              17
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 0.9996666666666667,
+          "precision": 0.9838709677419355,
+          "recall": 1.0,
+          "f1": 0.991869918699187,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       0.98      1.00      0.99        61\n\n    accuracy                           1.00      3000\n   macro avg       0.99      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2938,
+              1
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.6302,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.362 \u2192 0.992 (+0.6302)"
+      },
+      "version_before": "v1.9",
+      "version_after": "v1.10"
+    },
+    "report": "[2026-05-18 19:26:10] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:15.372218+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 15,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +15 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.4299,
+      "severity": "HIGH",
+      "live_f1": 0.4523809523809524,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.1032,
+      "strategy": "full_retrain",
+      "confidence": 0.292
+    },
+    "report": "[2026-05-18 19:26:15] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +15 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.4299\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.4523809523809524 (drop 0.1032)\nStrategy: full_retrain  Confidence: 0.292"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:26.068630+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 26,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +26 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.6439,
+      "severity": "HIGH",
+      "live_f1": 0.6236559139784946,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.43
+    },
+    "report": "[2026-05-18 19:26:26] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +26 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.6439\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.6236559139784946 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.43"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:29.695377+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.4,
+        "tool_wear_increment": 4,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +4 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.4076,
+      "severity": "HIGH",
+      "live_f1": 0.39506172839506176,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.1605,
+      "strategy": "full_retrain",
+      "confidence": 0.219
+    },
+    "report": "[2026-05-18 19:26:29] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=3.4 Nm; +4 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.4076\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.39506172839506176 (drop 0.1605)\nStrategy: full_retrain  Confidence: 0.219"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:32.406002+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 4.9,
+        "tool_wear_increment": 4,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=4.9 Nm; +4 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.4096,
+      "severity": "HIGH",
+      "live_f1": 0.4578313253012048,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.0977,
+      "strategy": "full_retrain",
+      "confidence": 0.299
+    },
+    "report": "[2026-05-18 19:26:32] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=4.9 Nm; +4 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.4096\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.4578313253012048 (drop 0.0977)\nStrategy: full_retrain  Confidence: 0.299"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:35.790261+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 2.8,
+        "tool_wear_increment": 4,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=2.8 Nm; +4 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.4066,
+      "severity": "HIGH",
+      "live_f1": 0.4819277108433735,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.0736,
+      "strategy": "full_retrain",
+      "confidence": 0.33
+    },
+    "report": "[2026-05-18 19:26:35] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=2.8 Nm; +4 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.4066\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.4819277108433735 (drop 0.0736)\nStrategy: full_retrain  Confidence: 0.33"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:40.215524+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 4.0,
+        "torque_noise_std": 3.9,
+        "tool_wear_increment": 4,
+        "description": "+4.0 K air/process temperature; torque noise \u03c3=3.9 Nm; +4 min tool wear"
+      },
+      "max_psi": 10.8739,
+      "aggregate_psi": 3.4079,
+      "severity": "HIGH",
+      "live_f1": 0.3846153846153846,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.1709,
+      "strategy": "full_retrain",
+      "confidence": 0.206
+    },
+    "report": "[2026-05-18 19:26:40] DRIFT RECALC\n\nParams: +4.0 K air/process temperature; torque noise \u03c3=3.9 Nm; +4 min tool wear\nMax PSI: 10.8739  Mean PSI: 3.4079\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.3846153846153846 (drop 0.1709)\nStrategy: full_retrain  Confidence: 0.206"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:42.803700+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 12.5,
+        "torque_noise_std": 3.9,
+        "tool_wear_increment": 4,
+        "description": "+12.5 K air/process temperature; torque noise \u03c3=3.9 Nm; +4 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.611,
+      "severity": "HIGH",
+      "live_f1": 0.06349206349206349,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.4921,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:26:42] DRIFT RECALC\n\nParams: +12.5 K air/process temperature; torque noise \u03c3=3.9 Nm; +4 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.611\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.06349206349206349 (drop 0.4921)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:44.254066+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 16.5,
+        "torque_noise_std": 3.9,
+        "tool_wear_increment": 4,
+        "description": "+16.5 K air/process temperature; torque noise \u03c3=3.9 Nm; +4 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.6094,
+      "severity": "HIGH",
+      "live_f1": 0.03225806451612903,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.5233,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:26:44] DRIFT RECALC\n\nParams: +16.5 K air/process temperature; torque noise \u03c3=3.9 Nm; +4 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.6094\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.03225806451612903 (drop 0.5233)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:47.326641+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 18.5,
+        "torque_noise_std": 3.9,
+        "tool_wear_increment": 4,
+        "description": "+18.5 K air/process temperature; torque noise \u03c3=3.9 Nm; +4 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.6108,
+      "severity": "HIGH",
+      "live_f1": 0.03225806451612903,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.5233,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:26:47] DRIFT RECALC\n\nParams: +18.5 K air/process temperature; torque noise \u03c3=3.9 Nm; +4 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.6108\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.03225806451612903 (drop 0.5233)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:49.038256+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 18.5,
+        "torque_noise_std": 3.9,
+        "tool_wear_increment": 40,
+        "description": "+18.5 K air/process temperature; torque noise \u03c3=3.9 Nm; +40 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.9005,
+      "severity": "HIGH",
+      "live_f1": 0.03225806451612903,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.5233,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:26:49] DRIFT RECALC\n\nParams: +18.5 K air/process temperature; torque noise \u03c3=3.9 Nm; +40 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.9005\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.03225806451612903 (drop 0.5233)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:50.757867+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 18.5,
+        "torque_noise_std": 3.9,
+        "tool_wear_increment": 50,
+        "description": "+18.5 K air/process temperature; torque noise \u03c3=3.9 Nm; +50 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 5.1119,
+      "severity": "HIGH",
+      "live_f1": 0.09375,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.4618,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:26:50] DRIFT RECALC\n\nParams: +18.5 K air/process temperature; torque noise \u03c3=3.9 Nm; +50 min tool wear\nMax PSI: 11.5166  Mean PSI: 5.1119\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.09375 (drop 0.4618)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:52.000881+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 18.5,
+        "torque_noise_std": 7.5,
+        "tool_wear_increment": 50,
+        "description": "+18.5 K air/process temperature; torque noise \u03c3=7.5 Nm; +50 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 5.1234,
+      "severity": "HIGH",
+      "live_f1": 0.03225806451612903,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.5233,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:26:52] DRIFT RECALC\n\nParams: +18.5 K air/process temperature; torque noise \u03c3=7.5 Nm; +50 min tool wear\nMax PSI: 11.5166  Mean PSI: 5.1234\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.03225806451612903 (drop 0.5233)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:53.981232+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 20.0,
+        "torque_noise_std": 7.5,
+        "tool_wear_increment": 50,
+        "description": "+20.0 K air/process temperature; torque noise \u03c3=7.5 Nm; +50 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 5.1222,
+      "severity": "HIGH",
+      "live_f1": 0.06349206349206349,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.4921,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:26:53] DRIFT RECALC\n\nParams: +20.0 K air/process temperature; torque noise \u03c3=7.5 Nm; +50 min tool wear\nMax PSI: 11.5166  Mean PSI: 5.1222\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.06349206349206349 (drop 0.4921)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:26:57.267935+00:00",
+    "action_type": "human_approval",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain"
+    },
+    "report": "[2026-05-18 19:26:57] HUMAN APPROVAL\n\n{\n  \"strategy\": \"full_retrain\"\n}"
+  },
+  {
+    "timestamp": "2026-05-18T19:27:00.998597+00:00",
+    "action_type": "human_approval",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain"
+    },
+    "report": "[2026-05-18 19:27:00] HUMAN APPROVAL\n\n{\n  \"strategy\": \"full_retrain\"\n}"
+  },
+  {
+    "timestamp": "2026-05-18T19:27:40.732881+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 20.0,
+        "torque_noise_std": 7.5,
+        "tool_wear_increment": 19,
+        "description": "+20.0 K air/process temperature; torque noise \u03c3=7.5 Nm; +19 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.6665,
+      "severity": "HIGH",
+      "live_f1": 0.0,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.5556,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:27:40] DRIFT RECALC\n\nParams: +20.0 K air/process temperature; torque noise \u03c3=7.5 Nm; +19 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.6665\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.0 (drop 0.5556)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:27:42.050064+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.6665,
+      "severity": "HIGH",
+      "f1_drop": 0.5556,
+      "live_f1": 0.0,
+      "drift_params": {
+        "temp_shift_k": 20.0,
+        "torque_noise_std": 7.5,
+        "tool_wear_increment": 19,
+        "description": "+20.0 K air/process temperature; torque noise \u03c3=7.5 Nm; +19 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:27:42] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 4.6665\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:27:42.056312+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.556, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.1,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.10 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 0.2145,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.078,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 4.6665,
+        "f1_drop": 0.5555555555555555,
+        "live_f1": 0.0
+      }
+    },
+    "report": "[2026-05-18 19:27:42] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.1 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 0.2145\n  torque                  PSI = 0.0780\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.556, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:27:44.502396+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.0,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9796666666666667,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99      2939\n           1       0.00      0.00      0.00        61\n\n    accuracy                           0.98      3000\n   macro avg       0.49      0.50      0.49      3000\nweighted avg       0.96      0.98      0.97      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              61,
+              0
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 1.0,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.000 \u2192 1.000 (+1.0000)"
+      },
+      "version_before": "v1.10",
+      "version_after": "v1.11"
+    },
+    "report": "[2026-05-18 19:27:44] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:32:22.602742+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 20.0,
+        "torque_noise_std": 4.7,
+        "tool_wear_increment": 19,
+        "description": "+20.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +19 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.6534,
+      "severity": "HIGH",
+      "live_f1": 0.7524752475247525,
+      "reference_f1": 0.5714285714285714,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.44
+    },
+    "report": "[2026-05-18 19:32:22] DRIFT RECALC\n\nParams: +20.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +19 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.6534\nSeverity: HIGH\nF1: 0.5714285714285714 \u2192 0.7524752475247525 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.44"
+  },
+  {
+    "timestamp": "2026-05-18T19:32:24.289934+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.6534,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.7524752475247525,
+      "drift_params": {
+        "temp_shift_k": 20.0,
+        "torque_noise_std": 4.7,
+        "tool_wear_increment": 19,
+        "description": "+20.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +19 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:32:24] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 4.6534\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:32:24.296274+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.44,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.44 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 0.2145,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0127,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 4.6534,
+        "f1_drop": 0.0,
+        "live_f1": 0.7524752475247525
+      }
+    },
+    "report": "[2026-05-18 19:32:24] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.44 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 0.2145\n  torque                  PSI = 0.0127\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:32:26.707873+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.7524752475247525,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9916666666666667,
+          "precision": 0.95,
+          "recall": 0.6229508196721312,
+          "f1": 0.7524752475247525,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      1.00      2939\n           1       0.95      0.62      0.75        61\n\n    accuracy                           0.99      3000\n   macro avg       0.97      0.81      0.87      3000\nweighted avg       0.99      0.99      0.99      3000\n",
+          "confusion_matrix": [
+            [
+              2937,
+              2
+            ],
+            [
+              23,
+              38
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.2475,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.752 \u2192 1.000 (+0.2475)"
+      },
+      "version_before": "v1.11",
+      "version_after": "v1.12"
+    },
+    "report": "[2026-05-18 19:32:26] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:32:28.418448+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 20.0,
+        "torque_noise_std": 4.7,
+        "tool_wear_increment": 45,
+        "description": "+20.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +45 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 5.1019,
+      "severity": "HIGH",
+      "live_f1": 0.5470085470085471,
+      "reference_f1": 0.5869565217391305,
+      "f1_drop": 0.0399,
+      "strategy": "full_retrain",
+      "confidence": 0.376
+    },
+    "report": "[2026-05-18 19:32:28] DRIFT RECALC\n\nParams: +20.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +45 min tool wear\nMax PSI: 11.5166  Mean PSI: 5.1019\nSeverity: HIGH\nF1: 0.5869565217391305 \u2192 0.5470085470085471 (drop 0.0399)\nStrategy: full_retrain  Confidence: 0.376"
+  },
+  {
+    "timestamp": "2026-05-18T19:32:29.919183+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 5.1019,
+      "severity": "HIGH",
+      "f1_drop": 0.0399,
+      "live_f1": 0.5470085470085471,
+      "drift_params": {
+        "temp_shift_k": 20.0,
+        "torque_noise_std": 4.7,
+        "tool_wear_increment": 45,
+        "description": "+20.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +45 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:32:29] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 5.1019\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:32:29.926362+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.040, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.376,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.38 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 2.455,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0147,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 5.1019,
+        "f1_drop": 0.039947974730583424,
+        "live_f1": 0.5470085470085471
+      }
+    },
+    "report": "[2026-05-18 19:32:29] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.376 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 2.4550\n  torque                  PSI = 0.0147\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.040, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:32:32.333557+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.5470085470085471,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9823333333333333,
+          "precision": 0.5714285714285714,
+          "recall": 0.5245901639344263,
+          "f1": 0.5470085470085471,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99      2939\n           1       0.57      0.52      0.55        61\n\n    accuracy                           0.98      3000\n   macro avg       0.78      0.76      0.77      3000\nweighted avg       0.98      0.98      0.98      3000\n",
+          "confusion_matrix": [
+            [
+              2915,
+              24
+            ],
+            [
+              29,
+              32
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.453,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.547 \u2192 1.000 (+0.4530)"
+      },
+      "version_before": "v1.12",
+      "version_after": "v1.13"
+    },
+    "report": "[2026-05-18 19:32:32] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:32:36.448947+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 4.7,
+        "tool_wear_increment": 45,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +45 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 5.1023,
+      "severity": "HIGH",
+      "live_f1": 0.4528301886792453,
+      "reference_f1": 0.6086956521739131,
+      "f1_drop": 0.1559,
+      "strategy": "full_retrain",
+      "confidence": 0.229
+    },
+    "report": "[2026-05-18 19:32:36] DRIFT RECALC\n\nParams: +11.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +45 min tool wear\nMax PSI: 11.5166  Mean PSI: 5.1023\nSeverity: HIGH\nF1: 0.6086956521739131 \u2192 0.4528301886792453 (drop 0.1559)\nStrategy: full_retrain  Confidence: 0.229"
+  },
+  {
+    "timestamp": "2026-05-18T19:32:38.092807+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 5.1023,
+      "severity": "HIGH",
+      "f1_drop": 0.1559,
+      "live_f1": 0.4528301886792453,
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 4.7,
+        "tool_wear_increment": 45,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +45 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:32:38] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 5.1023\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:32:38.099953+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.156, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.229,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.23 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 2.455,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0167,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 5.1023,
+        "f1_drop": 0.1558654634946678,
+        "live_f1": 0.4528301886792453
+      }
+    },
+    "report": "[2026-05-18 19:32:38] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.229 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 2.4550\n  torque                  PSI = 0.0167\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.156, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:32:40.522331+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.4528301886792453,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9806666666666667,
+          "precision": 0.5333333333333333,
+          "recall": 0.39344262295081966,
+          "f1": 0.4528301886792453,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99      2939\n           1       0.53      0.39      0.45        61\n\n    accuracy                           0.98      3000\n   macro avg       0.76      0.69      0.72      3000\nweighted avg       0.98      0.98      0.98      3000\n",
+          "confusion_matrix": [
+            [
+              2918,
+              21
+            ],
+            [
+              37,
+              24
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.5472,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.453 \u2192 1.000 (+0.5472)"
+      },
+      "version_before": "v1.13",
+      "version_after": "v1.14"
+    },
+    "report": "[2026-05-18 19:32:40] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:32:47.797437+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 4.7,
+        "tool_wear_increment": 15,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +15 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.6331,
+      "severity": "HIGH",
+      "live_f1": 0.41558441558441556,
+      "reference_f1": 0.5333333333333333,
+      "f1_drop": 0.1177,
+      "strategy": "full_retrain",
+      "confidence": 0.272
+    },
+    "report": "[2026-05-18 19:32:47] DRIFT RECALC\n\nParams: +11.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +15 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.6331\nSeverity: HIGH\nF1: 0.5333333333333333 \u2192 0.41558441558441556 (drop 0.1177)\nStrategy: full_retrain  Confidence: 0.272"
+  },
+  {
+    "timestamp": "2026-05-18T19:33:22.921690+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 4.7,
+        "tool_wear_increment": 27,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +27 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.85,
+      "severity": "HIGH",
+      "live_f1": 0.43037974683544306,
+      "reference_f1": 0.5333333333333333,
+      "f1_drop": 0.103,
+      "strategy": "full_retrain",
+      "confidence": 0.291
+    },
+    "report": "[2026-05-18 19:33:22] DRIFT RECALC\n\nParams: +11.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +27 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.85\nSeverity: HIGH\nF1: 0.5333333333333333 \u2192 0.43037974683544306 (drop 0.103)\nStrategy: full_retrain  Confidence: 0.291"
+  },
+  {
+    "timestamp": "2026-05-18T19:33:25.302691+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.85,
+      "severity": "HIGH",
+      "f1_drop": 0.103,
+      "live_f1": 0.43037974683544306,
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 4.7,
+        "tool_wear_increment": 27,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=4.7 Nm; +27 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:33:25] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 4.85\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:33:25.310199+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.103, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.291,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.29 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.1955,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0145,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 4.85,
+        "f1_drop": 0.10295358649789027,
+        "live_f1": 0.43037974683544306
+      }
+    },
+    "report": "[2026-05-18 19:33:25] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.291 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 1.1955\n  torque                  PSI = 0.0145\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.103, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:33:27.728243+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.43037974683544306,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.985,
+          "precision": 0.9444444444444444,
+          "recall": 0.2786885245901639,
+          "f1": 0.43037974683544306,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99      2939\n           1       0.94      0.28      0.43        61\n\n    accuracy                           0.98      3000\n   macro avg       0.96      0.64      0.71      3000\nweighted avg       0.98      0.98      0.98      3000\n",
+          "confusion_matrix": [
+            [
+              2938,
+              1
+            ],
+            [
+              44,
+              17
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.5696,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.430 \u2192 1.000 (+0.5696)"
+      },
+      "version_before": "v1.14",
+      "version_after": "v1.15"
+    },
+    "report": "[2026-05-18 19:33:27] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:35:23.132560+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 2.0,
+        "tool_wear_increment": 27,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=2.0 Nm; +27 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8477,
+      "severity": "HIGH",
+      "live_f1": 0.882882882882883,
+      "reference_f1": 0.5617977528089887,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.451
+    },
+    "report": "[2026-05-18 19:35:23] DRIFT RECALC\n\nParams: +11.0 K air/process temperature; torque noise \u03c3=2.0 Nm; +27 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8477\nSeverity: HIGH\nF1: 0.5617977528089887 \u2192 0.882882882882883 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.451"
+  },
+  {
+    "timestamp": "2026-05-18T19:35:24.646869+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8477,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.882882882882883,
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 2.0,
+        "tool_wear_increment": 27,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=2.0 Nm; +27 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:35:24] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 4.8477\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Tool wear [min]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:35:24.655772+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.451,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.45 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.1955,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.003,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 4.8477,
+        "f1_drop": 0.0,
+        "live_f1": 0.882882882882883
+      }
+    },
+    "report": "[2026-05-18 19:35:24] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.451 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 1.1955\n  rotational_speed        PSI = 0.0085\n  torque                  PSI = 0.0030\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:35:27.070442+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.882882882882883,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9956666666666667,
+          "precision": 0.98,
+          "recall": 0.8032786885245902,
+          "f1": 0.882882882882883,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       0.98      0.80      0.88        61\n\n    accuracy                           1.00      3000\n   macro avg       0.99      0.90      0.94      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2938,
+              1
+            ],
+            [
+              12,
+              49
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.1171,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.883 \u2192 1.000 (+0.1171)"
+      },
+      "version_before": "v1.15",
+      "version_after": "v1.16"
+    },
+    "report": "[2026-05-18 19:35:27] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:39:45.499047+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 7.0,
+        "tool_wear_increment": 27,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=7.0 Nm; +27 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8569,
+      "severity": "HIGH",
+      "live_f1": 0.6846846846846847,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.435
+    },
+    "report": "[2026-05-18 19:39:45] DRIFT RECALC\n\nParams: +11.0 K air/process temperature; torque noise \u03c3=7.0 Nm; +27 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8569\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.6846846846846847 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.435"
+  },
+  {
+    "timestamp": "2026-05-18T19:39:47.050272+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8569,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.6846846846846847,
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 7.0,
+        "tool_wear_increment": 27,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=7.0 Nm; +27 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:39:47] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 4.8569\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:39:47.058387+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.435,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.43 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.1955,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0493,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 4.8569,
+        "f1_drop": 0.0,
+        "live_f1": 0.6846846846846847
+      }
+    },
+    "report": "[2026-05-18 19:39:47] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.435 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 1.1955\n  torque                  PSI = 0.0493\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:39:49.485631+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.6846846846846847,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9883333333333333,
+          "precision": 0.76,
+          "recall": 0.6229508196721312,
+          "f1": 0.6846846846846847,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99      2939\n           1       0.76      0.62      0.68        61\n\n    accuracy                           0.99      3000\n   macro avg       0.88      0.81      0.84      3000\nweighted avg       0.99      0.99      0.99      3000\n",
+          "confusion_matrix": [
+            [
+              2927,
+              12
+            ],
+            [
+              23,
+              38
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.3153,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.685 \u2192 1.000 (+0.3153)"
+      },
+      "version_before": "v1.16",
+      "version_after": "v1.17"
+    },
+    "report": "[2026-05-18 19:39:49] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:39:52.147958+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 2.5,
+        "tool_wear_increment": 27,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=2.5 Nm; +27 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8476,
+      "severity": "HIGH",
+      "live_f1": 0.7676767676767677,
+      "reference_f1": 0.5393258426966292,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.441
+    },
+    "report": "[2026-05-18 19:39:52] DRIFT RECALC\n\nParams: +11.0 K air/process temperature; torque noise \u03c3=2.5 Nm; +27 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8476\nSeverity: HIGH\nF1: 0.5393258426966292 \u2192 0.7676767676767677 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.441"
+  },
+  {
+    "timestamp": "2026-05-18T19:39:53.566745+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8476,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.7676767676767677,
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 2.5,
+        "tool_wear_increment": 27,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=2.5 Nm; +27 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:39:53] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 4.8476\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Tool wear [min]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:39:53.574968+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.441,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.44 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.1955,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0026,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 4.8476,
+        "f1_drop": 0.0,
+        "live_f1": 0.7676767676767677
+      }
+    },
+    "report": "[2026-05-18 19:39:53] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.441 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 1.1955\n  rotational_speed        PSI = 0.0085\n  torque                  PSI = 0.0026\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:39:55.986290+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.7676767676767677,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9923333333333333,
+          "precision": 1.0,
+          "recall": 0.6229508196721312,
+          "f1": 0.7676767676767677,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      1.00      2939\n           1       1.00      0.62      0.77        61\n\n    accuracy                           0.99      3000\n   macro avg       1.00      0.81      0.88      3000\nweighted avg       0.99      0.99      0.99      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              23,
+              38
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.2323,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.768 \u2192 1.000 (+0.2323)"
+      },
+      "version_before": "v1.17",
+      "version_after": "v1.18"
+    },
+    "report": "[2026-05-18 19:39:55] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:39:59.425997+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 2.5,
+        "tool_wear_increment": 41,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=2.5 Nm; +41 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.9011,
+      "severity": "HIGH",
+      "live_f1": 0.7652173913043478,
+      "reference_f1": 0.5714285714285714,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.441
+    },
+    "report": "[2026-05-18 19:39:59] DRIFT RECALC\n\nParams: +11.0 K air/process temperature; torque noise \u03c3=2.5 Nm; +41 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.9011\nSeverity: HIGH\nF1: 0.5714285714285714 \u2192 0.7652173913043478 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.441"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:00.704928+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.9011,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.7652173913043478,
+      "drift_params": {
+        "temp_shift_k": 11.0,
+        "torque_noise_std": 2.5,
+        "tool_wear_increment": 41,
+        "description": "+11.0 K air/process temperature; torque noise \u03c3=2.5 Nm; +41 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:40:00] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 4.9011\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Tool wear [min]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:00.713736+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.441,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.44 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.4617,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.004,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 4.9011,
+        "f1_drop": 0.0,
+        "live_f1": 0.7652173913043478
+      }
+    },
+    "report": "[2026-05-18 19:40:00] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.441 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 1.4617\n  rotational_speed        PSI = 0.0085\n  torque                  PSI = 0.0040\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:40:03.138545+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.7652173913043478,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.991,
+          "precision": 0.8148148148148148,
+          "recall": 0.7213114754098361,
+          "f1": 0.7652173913043478,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      1.00      2939\n           1       0.81      0.72      0.77        61\n\n    accuracy                           0.99      3000\n   macro avg       0.90      0.86      0.88      3000\nweighted avg       0.99      0.99      0.99      3000\n",
+          "confusion_matrix": [
+            [
+              2929,
+              10
+            ],
+            [
+              17,
+              44
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.2348,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.765 \u2192 1.000 (+0.2348)"
+      },
+      "version_before": "v1.18",
+      "version_after": "v1.19"
+    },
+    "report": "[2026-05-18 19:40:03] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:05.184602+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 15.5,
+        "torque_noise_std": 2.5,
+        "tool_wear_increment": 41,
+        "description": "+15.5 K air/process temperature; torque noise \u03c3=2.5 Nm; +41 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.9013,
+      "severity": "HIGH",
+      "live_f1": 0.1515151515151515,
+      "reference_f1": 0.5555555555555555,
+      "f1_drop": 0.404,
+      "strategy": "full_retrain",
+      "confidence": 0.1
+    },
+    "report": "[2026-05-18 19:40:05] DRIFT RECALC\n\nParams: +15.5 K air/process temperature; torque noise \u03c3=2.5 Nm; +41 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.9013\nSeverity: HIGH\nF1: 0.5555555555555555 \u2192 0.1515151515151515 (drop 0.404)\nStrategy: full_retrain  Confidence: 0.1"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:06.676492+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.9013,
+      "severity": "HIGH",
+      "f1_drop": 0.404,
+      "live_f1": 0.1515151515151515,
+      "drift_params": {
+        "temp_shift_k": 15.5,
+        "torque_noise_std": 2.5,
+        "tool_wear_increment": 41,
+        "description": "+15.5 K air/process temperature; torque noise \u03c3=2.5 Nm; +41 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:40:06] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 4.9013\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Tool wear [min]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:06.685440+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.404, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.1,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.10 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.4617,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.005,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 4.9013,
+        "f1_drop": 0.404040404040404,
+        "live_f1": 0.1515151515151515
+      }
+    },
+    "report": "[2026-05-18 19:40:06] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.1 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 1.4617\n  rotational_speed        PSI = 0.0085\n  torque                  PSI = 0.0050\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.404, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:40:09.108862+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.1515151515151515,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9813333333333333,
+          "precision": 1.0,
+          "recall": 0.08196721311475409,
+          "f1": 0.1515151515151515,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99      2939\n           1       1.00      0.08      0.15        61\n\n    accuracy                           0.98      3000\n   macro avg       0.99      0.54      0.57      3000\nweighted avg       0.98      0.98      0.97      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              56,
+              5
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.8485,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.152 \u2192 1.000 (+0.8485)"
+      },
+      "version_before": "v1.19",
+      "version_after": "v1.20"
+    },
+    "report": "[2026-05-18 19:40:09] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:11.405992+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 13.0,
+        "torque_noise_std": 2.5,
+        "tool_wear_increment": 41,
+        "description": "+13.0 K air/process temperature; torque noise \u03c3=2.5 Nm; +41 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.9008,
+      "severity": "HIGH",
+      "live_f1": 0.6458333333333334,
+      "reference_f1": 0.5934065934065934,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.432
+    },
+    "report": "[2026-05-18 19:40:11] DRIFT RECALC\n\nParams: +13.0 K air/process temperature; torque noise \u03c3=2.5 Nm; +41 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.9008\nSeverity: HIGH\nF1: 0.5934065934065934 \u2192 0.6458333333333334 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.432"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:13.202232+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.9008,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.6458333333333334,
+      "drift_params": {
+        "temp_shift_k": 13.0,
+        "torque_noise_std": 2.5,
+        "tool_wear_increment": 41,
+        "description": "+13.0 K air/process temperature; torque noise \u03c3=2.5 Nm; +41 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:40:13] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 4.9008\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Tool wear [min]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:13.212249+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.432,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.43 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.4617,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0024,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 4.9008,
+        "f1_drop": 0.0,
+        "live_f1": 0.6458333333333334
+      }
+    },
+    "report": "[2026-05-18 19:40:13] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.432 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 1.4617\n  rotational_speed        PSI = 0.0085\n  torque                  PSI = 0.0024\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:40:15.628312+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.6458333333333334,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9886666666666667,
+          "precision": 0.8857142857142857,
+          "recall": 0.5081967213114754,
+          "f1": 0.6458333333333334,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99      2939\n           1       0.89      0.51      0.65        61\n\n    accuracy                           0.99      3000\n   macro avg       0.94      0.75      0.82      3000\nweighted avg       0.99      0.99      0.99      3000\n",
+          "confusion_matrix": [
+            [
+              2935,
+              4
+            ],
+            [
+              30,
+              31
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.3542,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.646 \u2192 1.000 (+0.3542)"
+      },
+      "version_before": "v1.20",
+      "version_after": "v1.21"
+    },
+    "report": "[2026-05-18 19:40:15] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:19.193267+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 13.0,
+        "torque_noise_std": 6.5,
+        "tool_wear_increment": 41,
+        "description": "+13.0 K air/process temperature; torque noise \u03c3=6.5 Nm; +41 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.9084,
+      "severity": "HIGH",
+      "live_f1": 0.7766990291262135,
+      "reference_f1": 0.5617977528089887,
+      "f1_drop": 0.0,
+      "strategy": "full_retrain",
+      "confidence": 0.442
+    },
+    "report": "[2026-05-18 19:40:19] DRIFT RECALC\n\nParams: +13.0 K air/process temperature; torque noise \u03c3=6.5 Nm; +41 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.9084\nSeverity: HIGH\nF1: 0.5617977528089887 \u2192 0.7766990291262135 (drop 0.0)\nStrategy: full_retrain  Confidence: 0.442"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:20.579132+00:00",
+    "action_type": "drift_detection",
+    "actor": "DriftWarden",
+    "details": {
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.9084,
+      "severity": "HIGH",
+      "f1_drop": 0.0,
+      "live_f1": 0.7766990291262135,
+      "drift_params": {
+        "temp_shift_k": 13.0,
+        "torque_noise_std": 6.5,
+        "tool_wear_increment": 41,
+        "description": "+13.0 K air/process temperature; torque noise \u03c3=6.5 Nm; +41 min tool wear"
+      },
+      "drifted_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+      ]
+    },
+    "report": "[2026-05-18 19:40:20] DRIFT DETECTION\n\nSTATUS: STABLE\nAggregate PSI: 4.9084\nFeature: Air temperature [K]\nFeature: Process temperature [K]\nFeature: Torque [Nm]\n\nLLM Analysis:"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:20.588737+00:00",
+    "action_type": "strategy_selection",
+    "actor": "DriftWarden",
+    "details": {
+      "strategy": "full_retrain",
+      "rationale": "Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required.",
+      "requires_retrain": true,
+      "confidence": 0.442,
+      "confidence_threshold": 0.7,
+      "governance": {
+        "action": "human_review_required",
+        "autonomous_allowed": false,
+        "message": "Confidence 0.44 < 0.7. Engineer approval required before retraining.",
+        "proposed_strategy": "full_retrain"
+      },
+      "top_drifted_features": [
+        {
+          "feature": "Process temperature [K]",
+          "label": "process_temperature",
+          "psi": 11.5166,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Air temperature [K]",
+          "label": "air_temperature",
+          "psi": 11.5148,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Tool wear [min]",
+          "label": "tool_wear",
+          "psi": 1.4617,
+          "psi_severity": "high",
+          "ks_significant": true
+        },
+        {
+          "feature": "Torque [Nm]",
+          "label": "torque",
+          "psi": 0.0404,
+          "psi_severity": "low",
+          "ks_significant": true
+        },
+        {
+          "feature": "Rotational speed [rpm]",
+          "label": "rotational_speed",
+          "psi": 0.0085,
+          "psi_severity": "low",
+          "ks_significant": false
+        }
+      ],
+      "inputs": {
+        "max_psi": 11.5166,
+        "agg_psi": 4.9084,
+        "f1_drop": 0.0,
+        "live_f1": 0.7766990291262135
+      }
+    },
+    "report": "[2026-05-18 19:40:20] STRATEGY SELECTION\n\nProposed strategy: FULL RETRAIN\nConfidence: 0.442 (threshold 0.7)\nAction: HUMAN REVIEW REQUIRED\n\nTop drifted features:\n  process_temperature     PSI = 11.5166\n  air_temperature         PSI = 11.5148\n  tool_wear               PSI = 1.4617\n  torque                  PSI = 0.0404\n  rotational_speed        PSI = 0.0085\n\nRationale: Significant shift: max PSI=11.517, F1 drop=0.000, severity=HIGH. Full retrain required."
+  },
+  {
+    "timestamp": "2026-05-18T19:40:23.111452+00:00",
+    "action_type": "drift_recalc",
+    "actor": "DriftWarden",
+    "details": {
+      "drift_params": {
+        "temp_shift_k": 13.0,
+        "torque_noise_std": 6.5,
+        "tool_wear_increment": 23,
+        "description": "+13.0 K air/process temperature; torque noise \u03c3=6.5 Nm; +23 min tool wear"
+      },
+      "max_psi": 11.5166,
+      "aggregate_psi": 4.8494,
+      "severity": "HIGH",
+      "live_f1": 0.475,
+      "reference_f1": 0.5617977528089887,
+      "f1_drop": 0.0868,
+      "strategy": "full_retrain",
+      "confidence": 0.314
+    },
+    "report": "[2026-05-18 19:40:23] DRIFT RECALC\n\nParams: +13.0 K air/process temperature; torque noise \u03c3=6.5 Nm; +23 min tool wear\nMax PSI: 11.5166  Mean PSI: 4.8494\nSeverity: HIGH\nF1: 0.5617977528089887 \u2192 0.475 (drop 0.0868)\nStrategy: full_retrain  Confidence: 0.314"
+  },
+  {
+    "timestamp": "2026-05-18T19:40:23.390149+00:00",
+    "action_type": "retrain",
+    "actor": "DriftWarden",
+    "details": {
+      "status": "promoted",
+      "strategy": "full_retrain",
+      "old_f1": 0.7766990291262135,
+      "new_f1": 1.0,
+      "comparison": {
+        "old": {
+          "accuracy": 0.9923333333333333,
+          "precision": 0.9523809523809523,
+          "recall": 0.6557377049180327,
+          "f1": 0.7766990291262135,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      1.00      2939\n           1       0.95      0.66      0.78        61\n\n    accuracy                           0.99      3000\n   macro avg       0.97      0.83      0.89      3000\nweighted avg       0.99      0.99      0.99      3000\n",
+          "confusion_matrix": [
+            [
+              2937,
+              2
+            ],
+            [
+              21,
+              40
+            ]
+          ]
+        },
+        "new": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_samples": 3000,
+          "failure_rate": 0.02033333333333333,
+          "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      2939\n           1       1.00      1.00      1.00        61\n\n    accuracy                           1.00      3000\n   macro avg       1.00      1.00      1.00      3000\nweighted avg       1.00      1.00      1.00      3000\n",
+          "confusion_matrix": [
+            [
+              2939,
+              0
+            ],
+            [
+              0,
+              61
+            ]
+          ]
+        },
+        "f1_delta": 0.2233,
+        "promote": true,
+        "reason": "Promoted: F1 improved 0.777 \u2192 1.000 (+0.2233)"
+      },
+      "version_before": "v1.21",
+      "version_after": "v1.22"
+    },
+    "report": "[2026-05-18 19:40:23] RETRAIN\n\nStrategy: FULL RETRAIN\nAction:\n  FULL_RETRAIN initiated\n\nDeployment:\n  \u2713 NEW MODEL PROMOTED"
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "current": "v1.22",
+  "history": [
+    {
+      "timestamp": "2026-05-16T18:01:40.210456+00:00",
+      "version": "v1.3",
+      "previous": "v1.2",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-16T18:21:59.360990+00:00",
+      "version": "v1.4",
+      "previous": "v1.3",
+      "f1": 0.9358,
+      "promoted": true,
+      "note": "initial_deploy"
+    },
+    {
+      "timestamp": "2026-05-16T18:44:01.320267+00:00",
+      "version": "v1.5",
+      "previous": "v1.4",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-16T18:44:09.007591+00:00",
+      "version": "v1.6",
+      "previous": "v1.5",
+      "f1": 0.9917,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-16T18:44:41.480478+00:00",
+      "version": "v1.7",
+      "previous": "v1.6",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-16T18:44:48.863719+00:00",
+      "version": "v1.8",
+      "previous": "v1.7",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-16T18:45:00.935006+00:00",
+      "version": "v1.8",
+      "previous": "v1.8",
+      "f1": 1.0,
+      "promoted": false,
+      "note": "rejected"
+    },
+    {
+      "timestamp": "2026-05-16T18:45:07.789457+00:00",
+      "version": "v1.9",
+      "previous": "v1.8",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:26:10.703641+00:00",
+      "version": "v1.10",
+      "previous": "v1.9",
+      "f1": 0.9919,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:27:44.497811+00:00",
+      "version": "v1.11",
+      "previous": "v1.10",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:32:26.705988+00:00",
+      "version": "v1.12",
+      "previous": "v1.11",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:32:32.331805+00:00",
+      "version": "v1.13",
+      "previous": "v1.12",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:32:40.520509+00:00",
+      "version": "v1.14",
+      "previous": "v1.13",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:33:27.724804+00:00",
+      "version": "v1.15",
+      "previous": "v1.14",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:35:27.068422+00:00",
+      "version": "v1.16",
+      "previous": "v1.15",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:39:49.481650+00:00",
+      "version": "v1.17",
+      "previous": "v1.16",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:39:55.984178+00:00",
+      "version": "v1.18",
+      "previous": "v1.17",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:40:03.136301+00:00",
+      "version": "v1.19",
+      "previous": "v1.18",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:40:09.106634+00:00",
+      "version": "v1.20",
+      "previous": "v1.19",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:40:15.625982+00:00",
+      "version": "v1.21",
+      "previous": "v1.20",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    },
+    {
+      "timestamp": "2026-05-18T19:40:23.387232+00:00",
+      "version": "v1.22",
+      "previous": "v1.21",
+      "f1": 1.0,
+      "promoted": true,
+      "note": "full_retrain"
+    }
+  ]
+}
